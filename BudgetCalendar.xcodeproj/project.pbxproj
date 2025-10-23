@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BudgetCalendarApp.swift in Sources = {isa = PBXBuildFile; };
+		ContentView.swift in Sources = {isa = PBXBuildFile; };
+		Transaction.swift in Sources = {isa = PBXBuildFile; };
+		CalendarView.swift in Sources = {isa = PBXBuildFile; };
+		TransactionFormView.swift in Sources = {isa = PBXBuildFile; };
+		TransactionListView.swift in Sources = {isa = PBXBuildFile; };
+		BalanceCalculator.swift in Sources = {isa = PBXBuildFile; };
+		ColorTheme.swift in Sources = {isa = PBXBuildFile; };
+		Assets.xcassets in Resources = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BudgetCalendar.app = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BudgetCalendarApp.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCalendarApp.swift; sourceTree = "<group>"; };
+		ContentView.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		Transaction.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		CalendarView.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		TransactionFormView.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormView.swift; sourceTree = "<group>"; };
+		TransactionListView.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		BalanceCalculator.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCalculator.swift; sourceTree = "<group>"; };
+		ColorTheme.swift = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		Assets.xcassets = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BudgetCalendar = {
+			isa = PBXGroup;
+			children = (
+				BudgetCalendarApp.swift,
+				ContentView.swift,
+				Models,
+				Views,
+				Utilities,
+				Assets.xcassets,
+			);
+			path = BudgetCalendar;
+			sourceTree = "<group>";
+		};
+		Models = {
+			isa = PBXGroup;
+			children = (
+				Transaction.swift,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		Views = {
+			isa = PBXGroup;
+			children = (
+				CalendarView.swift,
+				TransactionFormView.swift,
+				TransactionListView.swift,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		Utilities = {
+			isa = PBXGroup;
+			children = (
+				BalanceCalculator.swift,
+				ColorTheme.swift,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+	};
+	rootObject = BudgetCalendar;
+}
